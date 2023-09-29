@@ -14,8 +14,51 @@
 
 .home{
     border-radius: 15px;
-    padding: 15px;
+    padding: 10px;
     width: 90%;
     height: 90%;
     background-color: rgb(240, 248, 255);
+}
+
+.homeLayout{
+    display: flex;
+    border-radius: 15px;
+}
+
+.sidebar{
+    flex: 0.3;
+    border-radius: 15px;
+}
+
+.chatArea{
+    flex: 0.7;
+    border-radius: 15px;
+}
+
+.sidebarActionIcons{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px 0;
+}
+.sAIcon{
+    font-size: 24px !important;
+}
+
+.searchBar{
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.searchInput{
+    outline: 0;
+    border: none;
+    margin-left: 10px;
+    font-size: 1.25rem;
+    width: 100%;
 }
