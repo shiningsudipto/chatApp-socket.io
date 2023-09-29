@@ -1,5 +1,6 @@
 import SActionIcons from "./SActionIcons";
 import SSearchSection from "./SSearchSection";
+import SbUsers from "./SbUsers";
 
 const Sidebar = () => {
     return (
@@ -7,6 +8,7 @@ const Sidebar = () => {
             <p>Sidebar</p>
             <SActionIcons />
             <SSearchSection />
+            <SbUsers />
         </div>
     );
 };

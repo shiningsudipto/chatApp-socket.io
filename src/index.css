@@ -62,3 +62,25 @@
     font-size: 1.25rem;
     width: 100%;
 }
+
+.sbUsersSection{
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.sbUsers{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.sbUserAvatar{
+    margin-right: 15px;
+}
+.sbUserName{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.sbUserMessage{
+    margin-top: 5px;
+}
