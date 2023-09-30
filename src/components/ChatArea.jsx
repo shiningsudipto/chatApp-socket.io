@@ -1,16 +1,16 @@
 import CaHeader from "./CaHeader";
+import CaInputArea from "./CaInputArea";
+import CaMessageArea from "./CaMessageArea";
 
 const ChatArea = () => {
     return (
         <div className="chatArea">
             {/* Header */}
-            <div>
-                <CaHeader />
-            </div>
+            <CaHeader />
             {/* Message Area */}
-            <div></div>
+            <CaMessageArea />
             {/* Input Area */}
-            <div></div>
+            <CaInputArea />
         </div>
     );
 };
