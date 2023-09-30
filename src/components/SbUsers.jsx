@@ -10,7 +10,8 @@ const SbUsers = () => {
         {
             image: '',
             name: 'Sample Two',
-            message: 'Last Message'
+            message: 'Last Message',
+
         },
         {
             image: '',
@@ -31,9 +32,12 @@ const SbUsers = () => {
                         {/* <img src='' alt="" /> */}
                         <AccountCircleOutlinedIcon fontSize='large' />
                     </div>
-                    <div>
+                    <div className='sbUserInfo'>
                         <p className='sbUserName'>{user.name}</p>
                         <p className='sbUserMessage'>{user.message}</p>
+                    </div>
+                    <div className='sbMessageTime'>
+                        <p>Time</p>
                     </div>
                 </div>)}
         </div>
